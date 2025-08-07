@@ -1,0 +1,209 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      flex-wrap: wrap;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .navigation nav ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+
+nav ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  background-color: transparent; 
+}
+
+    .btn1, .btn2 {
+      background-color: #111;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn2 {
+      background-color: #e63946;
+      margin-top: 20px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 60px 10%;
+    }
+
+    .left, .right {
+      flex: 1 1 500px;
+      padding: 20px;
+    }
+
+    .left h3 {
+      font-size: 36px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .left p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .box {
+      display: flex;
+      gap: 20px;
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      margin-top: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .box img {
+      max-width:100%x;
+      padding: 25px;
+    }
+
+    .main, .maine {
+      padding: 60px 10%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #f9f9f9;
+    }
+
+    .leftmain, .rightmain {
+      flex: 1 1 450px;
+      margin: 20px;
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .maine {
+      flex-direction: column;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .maine h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .maine p {
+      font-size: 18px;
+      max-width: 700px;
+    }
+
+    .right img, .left img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    span {
+      background-color: #1d3557;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .hiring-section {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .hiring-section h3 {
+      color: white;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .hiring-section p {
+      color: #f0f0f0;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .hire-btn {
+      background-color: crimson;
+      width: 60%;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .emoji {
+      font-size: 50px;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    @media (max-width: 768px) {
+      .hero, .main {
+        flex-direction: column;
+      }
+
+      .top {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+      }
+
+      .navigation nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .btn1, .btn2 {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+.socal{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.socal button{
+  font-size: 30px;
+  border: none;
+  background-color: linen;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
